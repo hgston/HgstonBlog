@@ -1,4 +1,4 @@
-baseURL: "https://hgston.github.io/"
+baseURL: "http://localhost:1313/HgstonBlog/"
 languageCode: "zh-cn"
 title: "HgstonBlog"
 theme: "PaperMod"
