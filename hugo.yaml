@@ -1,4 +1,4 @@
-baseURL: "https://yourusername.github.io/" # 请替换为你的 GitHub 用户名
+baseURL: "https://hgston.github.io/hgstonblog/"
 languageCode: "zh-cn"
 title: "HgstonBlog"
 theme: "PaperMod"
