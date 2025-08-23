@@ -1,0 +1,91 @@
+baseURL: "https://yourusername.github.io/" # 请替换为你的 GitHub 用户名
+languageCode: "zh-cn"
+title: "HgstonBlog"
+theme: "PaperMod"
+
+menu:
+  main:
+    - name: "首页"
+      url: "/"
+      weight: 1
+    - name: "归档"
+      url: "/archives/"
+      weight: 2
+    - name: "分类"
+      url: "tags"
+      weight: 3
+    - name: "搜索"
+      url: "/search/"
+      weight: 4
+    - name: "关于"
+      url: "/about/"
+      weight: 5
+
+outputFormats:
+  HTML:
+    mediaType: "text/html"
+    isPlainText: false
+    isHTML: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+
+params:
+  defaultTheme: "auto" # 主题模式：auto, light, dark
+
+  label:
+    text: "HgstonBlog"
+    # icon: "/img/avatar.jpg"
+  
+  # 关键修改：禁用 profileMode，改用主页横幅模式
+  profileMode:
+    enabled: false # 改为 false，这样文章列Titonay表会显示
+  
+  # 主页简介配置 - 这会显示在文章列表上方
+  homeInfoParams:
+    Title: "你好，我是提诺Titonay"
+    Content: |-
+      - 很荣幸能与各位技术爱好者相聚于此，我将分享前沿技术动态与实践经验
+      - 同时还会探讨编程难题的解决方案，记录个人成长与学习历程
+      - 希望这里能成为我们共同进步的平台，期待一同探索技术的无限可能。
+  
+  
+  
+  # 社交图标配置
+  socialIcons:
+    - name: "GitHub" # 修正为 GitHub（注意大小写）
+      url: "https://github.com/hgston" # 请替换为你的GitHub用户名
+    - name: "Email"
+      url: "mailto:hgston@qq.com" # 请替换为你的邮箱
+    # 可以考虑添加更多图标，如RSS
+    - name: "RSS"
+      url: "index.xml" # RSS订阅链接
+
+  # 主页文章列表配置
+  homePostPagination: true # 开启主页分页
+  postPaginate: 5 # 每页显示5篇文章
+  summaryLength: 100 # 文章摘要长度
+
+  # 目录功能
+  ShowToc: true
+  TocOpen: false # 目录默认是否展开
+
+  # 代码复制按钮
+  copyCode: true
+
+  # 启用搜索功能
+  assets:
+    disableHLJS: true # 为了搜索功能，建议设置为true
+  search:
+    enable: true
+
+  # 显示页面信息（发布日期、字数、阅读时间等）
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowWordCount: true
+
+  # 配置页脚信息
+  footer:
+    since: 2025 # 博客开始年份
+    custom: '<span>Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a></span>'
