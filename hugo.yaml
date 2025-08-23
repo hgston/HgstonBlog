@@ -12,7 +12,7 @@ menu:
       url: "/archives/"
       weight: 2
     - name: "分类"
-      url: "tags"
+      url: "/categories/"
       weight: 3
     - name: "搜索"
       url: "/search/"
@@ -29,6 +29,10 @@ outputFormats:
 
 outputs:
   home: ["HTML", "RSS", "JSON"]
+
+taxonomies:
+  tag: tags
+  category: categories
 
 params:
   defaultTheme: "auto" # 主题模式：auto, light, dark
@@ -69,9 +73,6 @@ params:
   # 目录功能
   ShowToc: true
   TocOpen: false # 目录默认是否展开
-
-  # 代码复制按钮
-  copyCode: true
 
   # 启用搜索功能
   assets:

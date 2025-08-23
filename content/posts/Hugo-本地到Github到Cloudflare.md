@@ -1,5 +1,5 @@
 ---
-title: "从零开始：使用 Hugo + PaperMod 搭建博客并部署到 Cloudflare Pages"
+title: "从零开始：使用 Hugtago + PaperMod 搭建博客并部署到 Cloudflare Pages"
 date: 2025-08-23T17:30:38+08:00
 draft: false
 categories: ["环境部署"]
@@ -174,7 +174,7 @@ hugo server -D
 
 1.  在 Hugo 项目根目录 (`myblog`) 下，添加远程仓库地址并推送代码：
 ```bash
-git remote add origin https://github.com/yourusername/yourusername.github.io.git
+git remote add origin https://github.com/yourusername/yourrepo.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
@@ -192,7 +192,7 @@ git push -u origin master
 
 1.  登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)，进入 `Pages`。
 2.  点击 `Create a project` -> `Connect to Git`。
-3.  授权 Cloudflare 访问 GitHub 账户，并选择刚创建的那个仓库 (`yourusername.github.io`)。
+3.  授权 Cloudflare 访问 GitHub 账户，并选择刚创建的那个仓库 (`yourrepo`)。
 
 ### 配置构建设置
 
