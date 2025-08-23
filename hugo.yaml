@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/HgstonBlog/"
+baseURL: "http://localhost:1313/"
 languageCode: "zh-cn"
 title: "HgstonBlog"
 theme: "PaperMod"
