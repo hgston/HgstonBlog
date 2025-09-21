@@ -1,11 +1,14 @@
+---
 date = '2025-09-21T08:32:45Z'
-draft = true
+draft = false
 title = 'C实现:简单的HTTP服务器'
 categories: ["编程开发"]
+---
 
-+++
+# 用 C 语言在 Linux 环境下实现一个 HTTP 服务器
 
-# 用 C 语言在 Linux 环境下实现一个 HTTP 服务器 —— 这是一个非常棒的项目，能让你体验感受网络编程、HTTP 协议、系统调用和服务器架构。我会从零开始，带你一步一步实现一个简单的、可运行的 HTTP 服务器。
+
+这是一个非常棒的项目，能让你体验感受网络编程、HTTP 协议、系统调用和服务器架构。我会从零开始，带你一步一步实现一个简单的、可运行的 HTTP 服务器。
 
 ---
 
@@ -432,7 +435,7 @@ gcc http_server.c -o server
 ./server
 ```
 
-✅ 测试：
+测试：
 
 - 浏览器打开：`http://localhost:8080`
 - 终端测试：`curl http://localhost:8080`
@@ -453,7 +456,7 @@ gcc http_server.c -o server
 
 ---
 
-## 📚 八、推荐学习资料
+## 八、推荐学习资料
 
 - 《UNIX 网络编程 卷1：套接字联网API》—— W. Richard Stevens
 - 《TCP/IP 详解 卷1》
