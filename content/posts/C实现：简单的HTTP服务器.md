@@ -1,11 +1,11 @@
 ---
-date = '2025-09-21T08:32:45Z'
-draft = false
-title = 'C实现:简单的HTTP服务器'
-categories: ["编程开发"]
+title: "从零开始：使用 Hugo + PaperMod 搭建博客并部署到 Cloudflare Pages"
+date: 2025-08-23T17:30:38+08:00
+draft: false
+categories: ["环境部署"]
 ---
 
-# 用 C 语言在 Linux 环境下实现一个 HTTP 服务器
+## 用 C 语言在 Linux 环境下实现一个 HTTP 服务器
 
 
 这是一个非常棒的项目，能让你体验感受网络编程、HTTP 协议、系统调用和服务器架构。我会从零开始，带你一步一步实现一个简单的、可运行的 HTTP 服务器。

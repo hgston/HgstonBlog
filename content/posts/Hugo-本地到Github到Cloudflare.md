@@ -1,5 +1,5 @@
 ---
-title: "从零开始：使用 Hugtago + PaperMod 搭建博客并部署到 Cloudflare Pages"
+title: "从零开始：使用 Hugo + PaperMod 搭建博客并部署到 Cloudflare Pages"
 date: 2025-08-23T17:30:38+08:00
 draft: false
 categories: ["环境部署"]
