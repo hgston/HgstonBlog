@@ -1,8 +1,8 @@
 ---
-title: "从零开始：使用 Hugo + PaperMod 搭建博客并部署到 Cloudflare Pages"
-date: 2025-08-23T17:30:38+08:00
+date: '2025-09-21T08:32:45Z'
 draft: false
-categories: ["环境部署"]
+title: 'C实现: 简单的HTTP服务器'
+categories: ["编程开发"]
 ---
 
 ## 用 C 语言在 Linux 环境下实现一个 HTTP 服务器

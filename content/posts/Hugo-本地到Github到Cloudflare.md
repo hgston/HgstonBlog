@@ -1,8 +1,8 @@
 ---
-date: '2025-09-21T08:32:45Z'
+title: "从零开始：使用 Hugo + PaperMod 搭建博客并部署到 Cloudflare Pages"
+date: 2025-08-23T17:30:38+08:00
 draft: false
-title: 'C实现: 简单的HTTP服务器'
-categories: ["编程开发"]
+categories: ["环境部署"]
 ---
 
 ## 前言
